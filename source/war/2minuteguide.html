@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="My Reminder Bot is a Google Chat Bot that sends you reminders for your everyday tasks" />
+	<meta name="keywords" content="Bot,Reminder,To do, ToDo,Automation,Google Talk, Google, Google Chat,IM, Instant Message" />
+	<meta name="author" content="Romin Irani" />
+	<link rel="stylesheet" type="text/css" href="basic-minimal.css" title="Basic Minimal" media="all" />
+	<title>My Reminder Bot</title>
+</head>
+
+<body class="light">
+<div id="wrap">
+	<div id="header">
+		<h1><a href="index.html">My Reminder Bot</a></h1>
+		<p class="slogan">The Friendly Agent That Reminds You of Everyday Tasks</p>
+	</div>
+	
+	<div id="sidebar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="2minuteguide.html">2 Minute Guide</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+
+	<div id="content">
+		<h2>2 Minute Usage Guide</h2>
+		<p>We will first cover a simple use case as documentated at the <a href="http://cloudspokes.cloudapp.net/challenge_detail.html?contestID=124">Google Chat Bot Reminder contest</a> so that you understand how the Bot can help you. And then we will zoom into the step by step instructions for setting the Bot up to take care of the reminders.</p>
+		<h3>Use Case</h3>
+		<p>I need to remind myself to call someone back in one hour.</p>
+		<p>User enters: 1h Call Pete to see if he has finished development task 123.</p> 
+		<p>An hour from the time I chatted the bot, the bot will chat back to me Call Pete to see if he has finished development task 123.</p>
+		<h3>Step by Step Guide:</h3>
+		<p><b>Step 1 :</b>Launch Google Talk, Sign In and click on the "Add" button shown below:</p>
+		<p><img src="images/s1.png"></img></p>
+		<p><b>Step 2 :</b>Add <b>myreminderbot@appspot.com</b> as a contact and complete the steps.</p>
+		<p><img src="images/s2.png"></img></p>
+		<p><b>Step 3 :</b>This will add the My Reminder Bot to your friend list. Click on it and you should see that the My Reminder Bot is available as shown below.</p>
+		<p><img src="images/s3.png"></img></p>
+		<p><b>Step 4 :</b>My Reminder Bot understands only a few commands. To get a list of commands that it understands, simply type <b>help</b> as shown below. It will display a list of commands that it will obediently follow. It will also keep emotions aside and continue to execute the same command even if you try to bore it :-)</p>
+		<p><img src="images/s4.png"></img></p>
+		<p><b>Step 5 :</b>You can set a reminder in the future by either days(d), hours(h) or minutes. Examples are given below:</p>
+		<ul>
+		<li>10m Call Dentist : This means set a reminder 10 minutes from now and when the reminder triggers, send me an Instant Message "Call Dentist" via Google Talk.</li>
+		<li>5d Send Project Status Report : This means set a reminder 5 days from now with the message "Send Project Status Report"</li>
+		<li>1h Lunch with Team : This means set a reminder 1 hour from now with the message "Lunch with Team"</li>
+		</ul></p>
+		<p>In the screenshot below, we have set an example reminder "10m Send Project Status Report". This means that we are telling the My Reminder Bot to setup a reminder 10 minutes from now. And when 10 minutes are up, it will send me a message "Send Project Status Report"</p>
+		<p><img src="images/s5.png"></img></p>
+		<p><b>Step 6 :</b> On successfully adding the Reminder, you will see the message below. If there are any issues with setting the reminder due to an incorrect format or any other reason, the Bot will tell you exactly what went wrong.</p>
+		<p><img src="images/s6.png"></img></p>
+		<p><b>Step 7 :</b> Another example reminder is shown below. Here we are setting a reminder 1 day from now.</p>
+		<p><img src="images/s7.png"></img></p>
+		<p><b>Step 8 :</b> You can check all your active reminders, by simply giving the <b>list</b> command as shown below. All your active reminders will be shown. The key point to note is the ID.</p>
+		<p><img src="images/s8.png"></img></p>
+		<p><b>Step 9 :</b> To remove any active reminder, you can simply given the <b>remove [ReminderID]</b> command. The [ReminderID] is the ReminderID that was provided to you as part of the <b>list</b> command that we saw above. In this example, I provide a valid ReminderId that I had fetched earlier and give the command to remove it.</p>
+		<p><img src="images/s9.png"></img></p>
+		<p><b>Step 10 :</b> Since I remove one of the reminders, I only see a single reminder now in the list as shown below:</b></p>
+		<p><img src="images/s10.png"></img></p>
+		<p><b>Step 11 :</b>As expected, My Reminder Bot pings me via an Instant Message as shown below.</p>
+		<p><img src="images/s11.png"></img></p>
+		<p>Hope you like the service. Thank You for using My Reminder Bot.</p>
+	</div>
+	
+	<div id="footer">
+		<p>&copy; 2011 Romin Irani | Template design by <a href="http://andreasviklund.com/">Andreas Viklund</a></p>
+	</div>
+</div>
+</body>
+</html>

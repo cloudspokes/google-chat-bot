@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+ <cron>
+ <url>/cron/sendreminders</url>
+ <description>This Cron Job scans through the reminders to be sent and dispatches them</description>
+ <schedule>every 1 minutes</schedule>
+ </cron>
+</cronentries>

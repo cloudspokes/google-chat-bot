@@ -1,0 +1,13 @@
+Google Chat Bot Reminder
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=124
+Blog: http://blog.cloudspokes.com/2011/04/google-reminder-bot-reminds-you-to-be.html
+Challenge end date: Mon Mar 21 13:00:00 GMT 2011
+
+Description
+===========
+The google chat API supports the creation of automated bots. These bots are used to perform a variety of different tasks. In this case, we would like to create a bot you can chat with that will chat a message back to you after a predefined time interval.
+
+Requirements
+============
+The chat bot will take a message in the form of time interval message. The time interval will consist of days or minutes or hours. All abbreviated as d, m, h respectively. For instance 10d would be 10 days from now, 10h would be 10 hours from now or 10m would be 10 minutes from now. Since this will require some additional processing, Google App Engine should be used for all persistence and timing logic. GAE will also be used for any hosting requirements.
